@@ -1,8 +1,11 @@
+ 
 # Linux-Process-API-fork-wait-exec-
 Ex02-Linux Process API-fork(), wait(), exec()
 # Ex02-OS-Linux-Process API - fork(), wait(), exec()
 Operating systems Lab exercise
 
+# Register number: 212224040314
+# Name: SHRIRAM VR
 
 # AIM:
 To write C Program that uses Linux Process API - fork(), wait(), exec()
@@ -23,8 +26,7 @@ Test the C Program for the desired output.
 
 # PROGRAM:
 
-## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls:
-
+## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -42,17 +44,14 @@ int main() {
         wait(NULL); 
     }
 }
-
 ```
 
-## OUTPUT
+# OUTPUT
+
+<img width="616" height="381" alt="image" src="https://github.com/user-attachments/assets/a00a1783-5ea4-42df-a312-24bae58e7cb0" />
 
 
-<img width="616" height="381" alt="image" src="https://github.com/user-attachments/assets/540a22d6-82aa-4a22-96d6-be66e135e97b" />
-
-
-## C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
-
+# C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -94,13 +93,11 @@ int main() {
     printf("Done.\n");
     return 0;
 }
-
 ```
 
-## OUTPUT
+# OUTPUT
 
-<img width="662" height="486" alt="image" src="https://github.com/user-attachments/assets/cc6b5b30-bb16-4167-85b8-ca5bd682beb0" />
-
+<img width="662" height="486" alt="image" src="https://github.com/user-attachments/assets/2145d166-f11a-4b81-b757-b1efe593eb02" />
 
 # RESULT:
 The programs are executed successfully.
